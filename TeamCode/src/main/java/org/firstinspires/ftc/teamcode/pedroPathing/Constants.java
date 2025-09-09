@@ -39,7 +39,7 @@ public class Constants {
             .strafeEncoder_HardwareMapName("rightFront")
             .leftEncoderDirection(Encoder.REVERSE)
             .rightEncoderDirection(Encoder.REVERSE)
-            .strafeEncoderDirection(Encoder.REVERSE);
+            .strafeEncoderDirection(Encoder.FORWARD);
 
     public static Follower createFollower(HardwareMap hardwareMap) {
         return new FollowerBuilder(followerConstants, hardwareMap)
