@@ -18,19 +18,20 @@ public class Constants {
 
     public static MecanumConstants driveConstants = new MecanumConstants()
             .maxPower(1)
+            .xVelocity(54.56520532276463)
             .rightFrontMotorName("rightFront")
             .rightRearMotorName("rightRear")
             .leftRearMotorName("leftRear")
             .leftFrontMotorName("leftFront")
-            .leftFrontMotorDirection(DcMotorSimple.Direction.FORWARD)
-            .leftRearMotorDirection(DcMotorSimple.Direction.FORWARD)
-            .rightFrontMotorDirection(DcMotorSimple.Direction.REVERSE)
-            .rightRearMotorDirection(DcMotorSimple.Direction.REVERSE);
+            .leftFrontMotorDirection(DcMotorSimple.Direction.REVERSE)
+            .leftRearMotorDirection(DcMotorSimple.Direction.REVERSE)
+            .rightFrontMotorDirection(DcMotorSimple.Direction.FORWARD)
+            .rightRearMotorDirection(DcMotorSimple.Direction.FORWARD);
 
     public static ThreeWheelConstants localizerConstants = new ThreeWheelConstants()
-            .forwardTicksToInches(0.00057495117)
-            .strafeTicksToInches(0.00057495117)
-            .turnTicksToInches(0.00057495117)
+            .forwardTicksToInches(0.0005244942902631055)
+            .strafeTicksToInches(0.0005739148760136472)
+            .turnTicksToInches(0.000515346622628263)
             .leftPodY(3.25)
             .rightPodY(-3.25)
             .strafePodX(3.25)
